@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "alt": "image_alt_description",
+    "url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80",
+    "linking_path": "/image/btn/link/path",
+    "image_header": "Sport time",
+    "image_subheader": "Special offer for all sports wear"
+  },
+  {
+    "id": 2,
+    "alt": "image_alt_description",
+    "url": "https://a.lmcdn.ru/bs2/6/60/tiz_2_backpacks_w_15598_eg.jpg",
+    "linking_path": "/image/btn/link/path",
+    "image_header": "Bags for school",
+    "image_subheader": "Find a new bag for yourself"
+  },
+  {
+    "id": 3,
+    "alt": "image_alt_description",
+    "url": "https://sc01.alicdn.com/kf/HTB16iv0HFXXXXbAXpXXq6xXFXXXo/200144349/HTB16iv0HFXXXXbAXpXXq6xXFXXXo.jpg",
+    "linking_path": "/image/btn/link/path",
+    "image_header": "Mango sales",
+    "image_subheader": "Season sales to 50%"
+  }
+]
