@@ -1,0 +1,84 @@
+$basic-color: rgb(223, 223, 223);
+
+@mixin shadow-style {
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(222,222,222,0.46);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(222,222,222,0.46);
+  box-shadow: 5px 5px 5px 0px rgba(222,222,222,0.46);
+}
+
+h4,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.email-section {
+  background: #fbfbfb;
+  padding: 50px 20px;
+}
+
+.email-section-container {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.inline-section {
+  display: inline-block;
+  width: 48%;
+}
+
+.form-header {
+  font-weight: 600;
+  font-size: 20px;
+  color: #960000;
+}
+
+.form-subheader {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 10px;
+  color: rgb(43, 43, 43);
+}
+
+.form-wrapper {
+  position: absolute;
+  margin-left: 20px;
+}
+.input-form {
+  margin-right: 10px;
+  background: white;
+  border: $basic-color solid 1px;
+  // border: none;
+  border-radius: 20px;
+  padding: 10px 30px;
+  max-width: 200px;
+
+  textarea:focus,
+  &:focus {
+    outline: none;
+  }
+
+  @include shadow-style();
+}
+
+.form-btn {
+  font-weight: 500;
+  padding: 10px 20px;
+  border: none;
+  background: rgb(228, 57, 57);
+  color: white;
+  border-radius: 20px;
+  &:hover {
+    background: rgb(196, 46, 46);
+  }
+
+  &:active {
+    background: rgb(172, 42, 42);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  @include shadow-style();
+}

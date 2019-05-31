@@ -1,0 +1,41 @@
+$base-grey: rgb(70, 70, 70);
+
+ul {
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer-section-menu {
+  padding: 0;
+}
+
+.footer-submenu-container {
+  flex-basis: 40%;
+}
+
+.submenu-header {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgb(58, 58, 58);
+}
+
+.submenu-list-section {
+  .menu-list-item {
+    font-size: 13px;
+    font-weight: 300;
+    color: $base-grey;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.menu-list {
+  padding-bottom: 3px;
+}

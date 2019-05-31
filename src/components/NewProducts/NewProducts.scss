@@ -1,0 +1,32 @@
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.column {
+  height: 600px;
+  width: 500px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+.image-wrap {
+  position: relative;
+  // margin: 30px;
+  height: 50%;
+}
+
+.wrap-left {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.left {
+  width: 40%
+}
+
+.right {
+  width: 60%
+}

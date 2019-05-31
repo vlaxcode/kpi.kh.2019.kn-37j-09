@@ -1,0 +1,38 @@
+$border-color: rgb(0, 0, 0);
+$base-grey: rgb(109, 109, 109);
+
+select {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  color: $base-grey;
+}
+
+.form-group {
+  background: transparent;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.option {
+  padding: 15px;
+  color: black;
+}
+
+.form-control {
+  border: $base-grey solid 1px;
+  border-radius: 3px;
+  background: transparent;
+  padding: 5px;
+
+  &:active {
+    outline: none;
+    background: transparent;
+    //   border: none;
+  }
+
+  &:focus {
+    outline: none;
+    background: transparent;
+  }
+}

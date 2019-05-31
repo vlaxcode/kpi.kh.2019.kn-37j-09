@@ -1,0 +1,36 @@
+({
+  "section": "Footer",
+  "key": "footer_menu_1_items",
+  "type": "array",
+  "label": "Menu 1 (links)",
+  "properties": [
+    {
+      "key": "text",
+      "type": "string",
+      "label": "Link text"
+    },
+    {
+      "key": "url",
+      "type": "string",
+      "label": "Link url"
+    }
+  ]
+},
+{
+  "section": "Footer",
+  "key": "footer_menu_2_items",
+  "type": "array",
+  "label": "Menu 2 (links)",
+  "properties": [
+    {
+      "key": "text",
+      "type": "string",
+      "label": "Link text"
+    },
+    {
+      "key": "url",
+      "type": "string",
+      "label": "Link url"
+    }
+  ]
+})
